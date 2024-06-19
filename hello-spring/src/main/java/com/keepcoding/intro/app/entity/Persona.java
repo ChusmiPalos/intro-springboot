@@ -3,7 +3,11 @@ package com.keepcoding.intro.app.entity;
 import org.springframework.stereotype.Component;
 
 @Component
-// @Component hace que esta clase se pueda inyectar sin el "new", quien lo usa, lo invocará con @Autowired, aquí por ejemplo, @Autowired lo tiene la clase "Hello"
+/*
+ * @Component hace que esta clase se pueda inyectar sin el "new", quien lo usa,
+ * lo invocará con @Autowired, aquí por ejemplo, @Autowired lo tiene la clase
+ * "Hello"
+ */
 public class Persona {
 	private String nombre;
 	private String apellido;
